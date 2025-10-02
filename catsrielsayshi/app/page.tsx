@@ -4,14 +4,13 @@ import Titlebit from "./components/titleBit";
 
 export default function Home() {
   return (
-    <div>
-      <div className="bg-[url(/doorsroom0.png)] bg-cover bg-scroll">
+    <div className="bg-[url(/doorsroom0.png)] bg-cover bg-fixed h-screen">
       <Navbar></Navbar>
 
       <div className="flex flex-col justify-center items-center">
         <Titlebit></Titlebit>
       </div>
+      <h1>test</h1>
     </div>
-  </div>  
   );
 }
