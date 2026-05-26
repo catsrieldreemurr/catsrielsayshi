@@ -4,8 +4,8 @@ import SocialsPicture from "./socialsImage";
 
 function Navbar(){
     return(
-    <nav className="p-20">
-        <ul className="flex items-center gap-10 justify-between w-full flex-col sm:flex-row">
+    <nav className="p-20 text-white">
+        <ul className="flex items-center justify-between w-full flex-col sm:flex-row">
             <li className="mx-auto sm:mx-0"> 
                 <Link href="https://youtube.com/@CatsrielDreemurr"> 
                     <Image src="/catsrieldreemurr.png" alt="catsrieldreemurr" height={400} width={400}></Image>
