@@ -13,7 +13,7 @@ function Navbar(){
                 </Link> 
             </li>
 
-            <li>
+            <li className="mt-5 sm:mt-0">
                 <div className="grid grid-cols-3 gap-6">
                     <SocialsPicture imageURL="/youtube.png" destination="https://youtube.com/@CatsrielDreemurr"/>
                     <SocialsPicture imageURL="/twitter.png" destination="https://x.com/purrfectiu"/>

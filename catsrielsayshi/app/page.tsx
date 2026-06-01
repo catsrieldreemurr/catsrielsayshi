@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/navbar";
 import Titlebit from "./components/titleBit";
-import GetCurrentAge from "./components/ageCalculator";
+import CustomSection from "./components/customSection";
 
 export default function Home() {
   return (
@@ -11,6 +11,11 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center">
         <Titlebit></Titlebit>
       </div>
+
+      <CustomSection whitebackground>
+        <h1 className="text-2xl font-bold">test</h1>
+        <h2>test</h2>
+      </CustomSection>
     </div>
   );
 }
