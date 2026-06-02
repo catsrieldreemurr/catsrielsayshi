@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/navbar";
 import Titlebit from "./components/titleBit";
 import CustomSection from "./components/customSection";
+import SocialListcomponent from "./components/socialsListComponent";
 
 export default function Home() {
   return (
@@ -12,10 +13,9 @@ export default function Home() {
         <Titlebit></Titlebit>
       </div>
 
-      <CustomSection whitebackground>
-        <h1 className="text-2xl font-bold">test</h1>
-        <h2>test</h2>
-      </CustomSection>
+      <div className="flex sm:hidden justify-center">
+        <SocialListcomponent></SocialListcomponent>
+      </div>
     </div>
   );
 }
